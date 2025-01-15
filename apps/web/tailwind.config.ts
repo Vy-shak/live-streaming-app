@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss"
-import sharedConfig from "@repo/typescript-config/base.json"
+import sharedConfig from "@repo-tailwind/tailwind-config"
 
 const config: Pick<Config, "content" | "presets"> = {
     content: ["./app/**/*.tsx"],
